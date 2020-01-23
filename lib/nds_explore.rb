@@ -6,7 +6,7 @@ vm = [[[{:name=>"Vanilla Cookies", :price=>3}, {:name=>"Pistachio Cookies", :pri
 
 def pretty_print_nds(nds)
   require 'pp'
-  nil
+  pp nds
 end
 
 def print_first_directors_movie_titles
